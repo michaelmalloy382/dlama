@@ -1,0 +1,77 @@
+.page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #fcd3e1, #ffe0c3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem;
+  }
+  
+  .card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 1.25rem;
+  }
+  
+  .text {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 2rem;
+  }
+  
+  .code {
+    color: #0070f3;
+    font-weight: 600;
+  }
+  
+  .loaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+  
+  .loader {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #ffe0c3;
+    border-top: 5px solid #fcd3e1;
+    border-radius: 50%;
+    animation: spin 1.2s linear infinite;
+  }
+  
+  .button {
+    background: linear-gradient(to right, #fcd3e1, #ffe0c3);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .button:hover {
+    opacity: 0.95;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
