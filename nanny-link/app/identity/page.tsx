@@ -96,7 +96,7 @@ export default function IdentityVerificationForm() {
         method: 'POST',
         body: formData,
       });
-      router.push('/submitting');
+      router.push('/idme');
     } catch (err) {
       console.error(err);
       setError('Upload failed');

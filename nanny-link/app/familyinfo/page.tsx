@@ -67,7 +67,7 @@ Father's Full Name: ${form.fatherFullName}`;
       }
 
       setForm(initialForm);
-      router.push('/idme');
+      router.push('/identity');
     } catch (err) {
       console.error(err);
       setErrors(['Submission failed. Please try again later.']);
