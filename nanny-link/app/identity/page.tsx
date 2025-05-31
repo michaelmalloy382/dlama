@@ -107,9 +107,11 @@ export default function IdentityVerificationForm() {
 
   return (
     <div className={styles.page}>
-      <form className={styles.card} onSubmit={handleSubmit}>
-        <h2>Verify Your Identity</h2>
-        <p>Upload images of your <strong>Driver’s License</strong> or <strong>State ID</strong></p>
+      <form onSubmit={handleSubmit} className={styles.card}>
+        <h2 className={styles.heading}>Verify Your Identity</h2>
+        <p className={styles.description}>
+          Upload images of your <strong>Driver’s License</strong> or <strong>State ID</strong>
+        </p>
 
         <ImageUpload
           label="Front of ID"

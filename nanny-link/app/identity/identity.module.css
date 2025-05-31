@@ -18,13 +18,13 @@
     text-align: center;
   }
   
-  h2 {
+  .heading {
     font-size: 1.75rem;
     margin-bottom: 0.75rem;
     color: #222;
   }
   
-  p {
+  .paragraph {
     font-size: 1rem;
     color: #555;
     margin-bottom: 1.5rem;
