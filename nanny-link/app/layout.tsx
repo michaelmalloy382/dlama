@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Nanny Background Check",
   description: "Secure background checks for childcare",
+  icons: {
+    icon: "/download.svg", // or .ico/.png depending on your file
+  },
 };
 
 export default function RootLayout({
